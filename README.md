@@ -1,2 +1,2 @@
-[![PDF Preview]("./Complete pipeline.jpg")](Team_CopyPaste_Report.pdf)
+[![PDF Preview](Complete_pipeline.jpg)](Team_CopyPaste_Report.pdf)
 
