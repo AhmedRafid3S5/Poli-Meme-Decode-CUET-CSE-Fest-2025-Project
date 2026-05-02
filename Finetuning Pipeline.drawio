@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+  <diagram name="Page-1" id="MC8BfT2qQwFt20_IP_bi">
+    <mxGraphModel dx="1028" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-8" edge="1" parent="1" source="KMTvhFU6qkao_HDJMy2t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="Convert to Conversation Format For VLM" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="90" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-4" connectable="0" parent="KMTvhFU6qkao_HDJMy2t-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBackgroundColor=none;" value="Images&amp;nbsp;&lt;div&gt;&amp;amp; Actual Classification&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.4578" as="geometry">
+            <mxPoint y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="110" as="sourcePoint" />
+            <mxPoint x="280" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-6" connectable="0" parent="KMTvhFU6qkao_HDJMy2t-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBackgroundColor=none;" value="Prompt" vertex="1">
+          <mxGeometry relative="1" x="-0.4578" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-10" edge="1" parent="1" source="KMTvhFU6qkao_HDJMy2t-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-11" connectable="0" parent="KMTvhFU6qkao_HDJMy2t-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBackgroundColor=none;" value="Training&amp;nbsp;&lt;div&gt;Image&lt;/div&gt;&lt;div&gt;Dataset&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0433" y="-1" as="geometry">
+            <mxPoint x="3" y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" value="Map to Dataset" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-15" edge="1" parent="1" source="KMTvhFU6qkao_HDJMy2t-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-16" connectable="0" parent="KMTvhFU6qkao_HDJMy2t-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;labelBackgroundColor=none;" value="Finetuned model" vertex="1">
+          <mxGeometry relative="1" x="-0.07" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" value="GRPO Trainer" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="400" />
+              <mxPoint x="580" y="400" />
+            </Array>
+            <mxPoint x="600" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Reward Function&lt;div&gt;(Class&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Balanced)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" value="Model saved for&amp;nbsp;&lt;div&gt;inferencing&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-25" edge="1" parent="1" source="KMTvhFU6qkao_HDJMy2t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;" target="KMTvhFU6qkao_HDJMy2t-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-22" parent="1" style="swimlane;whiteSpace=wrap;html=1;fontSize=15;fillColor=#b0e3e6;strokeColor=#0e8088;rounded=1;" value="FastVision Model Wrapper" vertex="1">
+          <mxGeometry height="120" width="200" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-23" parent="KMTvhFU6qkao_HDJMy2t-22" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" value="Qwen3-VL-8B-Instruct-unsloth-bnb-4bit" vertex="1">
+          <mxGeometry height="60" width="180" x="10" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KMTvhFU6qkao_HDJMy2t-24" parent="KMTvhFU6qkao_HDJMy2t-22" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="Base Model" vertex="1">
+          <mxGeometry height="30" width="130" x="30" y="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
